@@ -9,7 +9,7 @@
 </head>
 <body>
 <%
-int a=Integer.parseInt(request.getParameter("rno"));
+int a=Integer.parseInt(request.getParameter("eno"));
 
 
 Connection con=MySQLConnectionITP.getConnection();  //connection is open
@@ -26,7 +26,7 @@ if(rows>0)
 else
 {
 	out.print("<font color='red'>Unable to Delete Student</font>");
-	RequestDispatcher rd=request.getRequestDispatcher("all-students.jsp");
+	RequestDispatcher rd=request.getRequestDispatcher("new-all-students.jsp");
 	rd.forward(request, response);	
 }
 %>

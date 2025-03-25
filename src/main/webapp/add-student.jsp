@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="save-employee.jsp" method="get">
+<form action="new-save-employee.jsp" method="get">
 	Enter Emp Number <input type="text" name="t1"><br>
 	Enter Emp Name <input type="text" name="t2"><br>
 	Enter Emp Salary <input type="text" name="t3"><br>
